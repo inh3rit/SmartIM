@@ -104,7 +104,7 @@ public class WXContactView extends IMContactView {
                 notifyLoadContacts(true);
                 
                 client.setReceiveCallback(receiveCallback);
-                client.addReceiveCallback(robotCallback);
+//                client.addReceiveCallback(robotCallback);
                 client.setSendCallback(sendCallback);
                 client.setModificationCallbacdk(modificationCallback);
                 client.start();
